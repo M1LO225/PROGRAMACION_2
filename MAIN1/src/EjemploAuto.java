@@ -8,13 +8,24 @@ public class EjemploAuto {
 
 
         Autos toyota = new Autos();
+        toyota.marca="Toyota";
+        toyota.modelo="Auris";
+        toyota.color="Blanco";
+        toyota.cilindraje= 3.5;
+
         Autos nissan = new Autos();
+        nissan.marca="Nissan";
+        nissan.modelo="Pathfinder";
+        nissan.color="Azul";
+        nissan.cilindraje=3.6;
 
 
         /*System.out.println("Marca " +chevrolet.marca);
         System.out.println("Modelo " +chevrolet.modelo);
         System.out.println("Color " +chevrolet.color);
         System.out.println("Cilindraje " +chevrolet.cilindraje);*/
+        System.out.println(chevrolet.calcularTanque(60.0f, 23f));
+        System.out.println(chevrolet.calcularTanque(60, 23));
 
         System.out.println(chevrolet.detalleAuto());
         System.out.println(chevrolet.acelerar(3500));
