@@ -16,8 +16,46 @@ public class Autos {
         this.modelo = modelo;
         this.color = color;
     }
-    
 
+    public Autos(String marca, String modelo, String color, Double cilindraje) {
+        this(marca, modelo, color);
+        this.cilindraje = cilindraje;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public Double getCilindraje() {
+        return cilindraje;
+    }
+
+    public void setCilindraje(Double cilindraje) {
+        this.cilindraje = cilindraje;
+    }
+
+
+    /*
     public String getMarca(){
         return this.marca;
 
@@ -54,6 +92,8 @@ public class Autos {
         this.cilindraje=cilindraje;
 
     }
+*/
+
 
 
 
